@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #666;
+}
+
+
+/* Header/logo tiêu đề */
+
+header {
+    padding: 35px;
+    text-align: center;
+    background:#64b6ed;
+    height: 300px;
+    background-image: url("https://noithathomeviet.com.vn/wp-content/uploads/2019/09/phong-cach-noi-that-hien-dai.jpg")
+    
+}
+/* Tăng kích thước font chữ cho header */
+
+header h1 {
+    color:rgb(238, 13, 99);
+    font-size:300%;
+
+
+}
+
+body,h1,h2,h3,h4,h5 {
+  font-family: "Poppins", sans-serif
+}
+
+section {
+    padding: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 7px 46px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active),
+.dropdown:hover .dropbtn {
+    color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(107, 198, 240, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(102, 102, 102);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #1682a3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Landing page */
+
+.hideable-section {
+    display: none;
+}
+
+.hideable-section:first-of-type {
+    display: block;
+}
+ .menu ul {
+    list-style-type: 50px;
+    margin: 0;
+    padding: 10px;
+  }
+  
+ .menu li {
+    padding: 25px;
+    margin-bottom: 15px;
+    background-color:#87CEEB;
+    color:white;
+    box-shadow: 0 1px 3px rosybrown, 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+ .menu li:hover {
+    background-color: #dfe22b;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    float: left;
+    width: 600px;
+    
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  div.galleryy img {
+    width: 100%;
+    height: 50%;
+  }
+  div.galleryy {
+    margin: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    float: left;
+    width: 600px;
+    text-align:center;
+  }
+  div.galleryy:hover {
+    border: 1px solid #777;
+  }
+  footer{
+    background-color:rgb(245, 237, 237);
+    text-align:center;
+    padding:15px;
+    font-size:auto;
+    display:block;
+}
+  
+  
